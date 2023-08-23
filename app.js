@@ -1,24 +1,24 @@
 let counter = 0;
 
-const counterValue = document.getElementById('counter-value');
-const incrementBtn = document.getElementById('increment-btn');
-const decrementBtn = document.getElementById('decrement-btn');
-const resetBtn = document.querySelector('#reset');
+const counterValue = document.getElementById('counterValue');
+const incrementButton = document.getElementById('incrementButton');
+const decrementButton = document.getElementById('decrementButton');
+const resetButton = document.querySelector('#reset');
 
 // To increase the value of counter
-incrementBtn.addEventListener('click', function() {
+incrementButton.addEventListener('click', function() {
 	counter++;
 	counterValue.innerHTML = counter;
 });
 
 // To decrease the value of counter
-decrementBtn.addEventListener('click', function() {
+decrementButton.addEventListener('click', function() {
 	counter--;
 	counterValue.innerHTML = counter;
 });
 
 // To reset the counter value to zero
-resetBtn.addEventListener('click', reset);
+resetButton.addEventListener('click', reset);
 
 function reset() {
 	counter = 0;
