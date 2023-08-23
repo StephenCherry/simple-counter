@@ -1,0 +1,52 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+    text-shadow: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+.container{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.container h1{
+	margin: 30px;
+}
+.counter{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+}
+#incrementButton, #decrementButton, #reset{
+	height: 50px;
+	width: 120px;
+	padding: 0 40px;
+	border-radius: 10px;
+	font-size: 40px;
+	background-color:chartreuse;
+	border: 2px solid chartreuse;
+	color: white;
+	margin: 20px;
+}
+#reset{
+	font-size: 20px;
+}
+#counterValue{
+	height: 50px;
+	min-width: 120px;
+	border-radius: 10px;
+	background-color: purple;
+	margin-top: 20px;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
